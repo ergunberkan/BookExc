@@ -25,9 +25,9 @@ public class UserService implements IUserService {
         Optional<UsersDO> currentUser=usersRepo.findById(Usersid);
         if(currentUser.isPresent())
         {
-            currentUser.get().setUsername(users.getSurname());
+            currentUser.get().setUser_name(users.getUser_name());
             currentUser.get().setName(users.getName());
-            currentUser.get().setSurname(users.getSurname());
+            currentUser.get().setSur_name(users.getSur_name());
             currentUser.get().setAddress(users.getAddress());
             currentUser.get().setCity(users.getCity());
             currentUser.get().setNumber(users.getNumber());

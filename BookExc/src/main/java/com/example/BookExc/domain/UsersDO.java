@@ -14,9 +14,9 @@ public class UsersDO {
     private Long id;
 
     @Column(nullable = false,unique = true)
-    private String username;
+    private String user_name;
     private String name;
-    private String surname;
+    private String sur_name;
     private String email;
     private String address;
     private String city;

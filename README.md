@@ -1,2 +1,13 @@
-# BookExc
-Get the book you need for free.
+## Book Exchange Backend
+
+Get Free Book && Send Your More Books
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Thank to the Kodluyoruz Team and Aylin Gumus :)
